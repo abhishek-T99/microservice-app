@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+psycopg2-binary
+alembic
+pydantic
+pydantic[email]
+pydantic-settings
+redis
+pika
+python-dotenv
+httpx

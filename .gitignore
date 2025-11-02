@@ -1,0 +1,93 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+# C extensions
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.venv/*
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+.nosetests.xml
+coverage.xml
+*,cover
+.pytest_cache/
+
+# Pyre type checker
+.pyre/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# dotenv
+.env
+
+# SQLite
+*.sqlite3
+*.db
+
+# Docker
+# Ignore local docker-compose overrides and machine files
+docker-compose.override.yml
+docker-compose.*.yml
+docker-compose.local.yml
+**/Dockerfile.*.local
+
+# Docker volumes / state
+volumes/
+**/.docker
+
+# Node (in case frontend/tools added)
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# IDE/editor temp files
+*.swp
+*~
+*.swo
+
+# Build artifacts
+*.pyc
+
+# Misc
+coverage/

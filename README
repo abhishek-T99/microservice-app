@@ -1,0 +1,18 @@
+## Setup Instructions
+
+1. **Clone and navigate to project directory**
+```bash
+mkdir microservices-app && cd microservices-app
+```
+
+2. **Create the .env file** (see below)
+
+
+3. **Build and run services**
+```bash
+docker-compose up --build
+```
+
+4. **Access services**
+- User Service: http://localhost:8001/docs
+- Order Service: http://localhost:8002/docs
